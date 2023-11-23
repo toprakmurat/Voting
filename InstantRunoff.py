@@ -74,8 +74,7 @@ class InstantRunoff:
         # Save index and name of eliminating candidate
         candidate_index = self.find_eliminating()
         candidate_name = self.candidates[candidate_index]
-
-        # TODO: FIND A BETTER WAY TO SOLVE THIS YOU CLUMSY
+        
         # Find votes to change
         for vote in self.votes:
             # Remove first and then append to the list again
